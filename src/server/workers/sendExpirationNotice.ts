@@ -4,7 +4,7 @@ import type { Context } from '../types';
 const emailToSend: Email = {
   to: '',
   subject: 'Your AIJobBot.xyz subscription is about to expire',
-  text: "Hey There! This is just a reminder that your subscription for https://AIJobBot.xyz is expiring in just two weeks. If you have any questions or concerns regarding your subscription, please don't hesitate to reach out. Thanks again for your support and good luck with your job search! -Vince from AIJobBot",
+  text: "Hey There! This is just a reminder that your subscription for https://AIJobBot.xyz is expiring in just two weeks. If you have any questions or concerns regarding your subscription, please don't hesitate to reach out. Thanks again for your support and good luck with your job search! -James from AIJobBot",
   html: `<html lang="en">
           <head>
             <meta charset="UTF-8">
@@ -18,7 +18,7 @@ const emailToSend: Email = {
             <p>If you have any questions or concerns regarding your subscription, please don't hesitate to reach out.</p>
 
             <p>Thanks again for your support and good luck with your job search!</p>
-            <p>-Vince from AIJobBot</p>
+            <p>-James from AIJobBot</p>
           </body>
         </html>`,
 };

@@ -46,11 +46,14 @@ export default function NavBar() {
       <HStack width='full' px={1} gap={3} align='center' justify='space-between'>
         <Link as={RouterLink} to='/'>
           <HStack gap={0}>
-            <Heading size='md' color={'text-contrast-md'}>
-              CoverLetter
+            <Heading size='md' className='gradient-text'>
+              AI
             </Heading>
             <Heading size='md' color={gptTextColor}>
-              GPT
+              JOB
+            </Heading>
+            <Heading size='md' color={'text-contrast-md'}>
+              BOT
             </Heading>
           </HStack>
         </Link>
