@@ -1,5 +1,5 @@
 {
-  "name": "coverlettergpt",
+  "name": "aijobbot",
   "dependencies": {
     "@chakra-ui/react": "2.8.0",
     "@emotion/react": "11.10.6",

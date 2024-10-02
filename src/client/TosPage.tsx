@@ -20,11 +20,11 @@ function TermsOfService() {
     <BorderBox id='terms'>
       <Text as='u'>**Terms of Service**</Text>
       <Text>
-        Welcome to CoverLetterGPT ("we," "us," "our"). By accessing or using our website and services, you ("User,"
+        Welcome to AIJobBot ("we," "us," "our"). By accessing or using our website and services, you ("User,"
         "you," "your") agree to be bound by these Terms of Service ("Terms"). If you do not agree to all of these Terms,
-        please do not use the services provided by CoverLetterGPT. <br /> **1. Description of Service** CoverLetterGPT
+        please do not use the services provided by AIJobBot. <br /> **1. Description of Service** AIJobBot
         is a SaaS application that uses AI technology to assist users in creating personalized cover letters based on
-        their curriculum vitae (CV) and job descriptions. <br /> **2. User Account** To use CoverLetterGPT, you must
+        their curriculum vitae (CV) and job descriptions. <br /> **2. User Account** To use AIJobBot, you must
         register for an account and provide accurate and complete information. You are responsible for maintaining the
         confidentiality of your account and password, and you must notify us immediately of any unauthorized use of your
         account. <br /> **3. Privacy** We respect your privacy and assure you that none of your personal data, including
@@ -33,8 +33,8 @@ function TermsOfService() {
         billed on a monthly basis. b. Your subscription will automatically renew each month unless you cancel it at
         least one day before the end of the current billing period. c. All charges are non-refundable, except at our
         sole discretion and in accordance with the rules governing each specific service. We may change the subscription
-        fees upon reasonable advance notice communicated to you through a posting on CoverLetterGPT or such other means
-        as we may deem appropriate, such as email. <br /> **5. Use of Services** You agree to use CoverLetterGPT in
+        fees upon reasonable advance notice communicated to you through a posting on AIJobBot or such other means
+        as we may deem appropriate, such as email. <br /> **5. Use of Services** You agree to use AIJobBot in
         compliance with all applicable laws, rules, and regulations. You are solely responsible for all data, text, and
         content uploaded, posted, or stored through your use of the Services. <br /> **6. Acceptable Use Policy** You
         agree not to misuse the services or help anyone else do so. Misuse includes, but is not limited to, using the
@@ -46,7 +46,7 @@ function TermsOfService() {
         breach the Terms. <br /> **9. Disclaimer of Warranties** Our service is provided "as is" and without warranties
         of any kind, either expressed or implied.
         <br />
-        **10. Limitation of Liability** In no event will CoverLetterGPT, its affiliates, officers, directors, employees,
+        **10. Limitation of Liability** In no event will AIJobBot, its affiliates, officers, directors, employees,
         agents, suppliers, or licensors be liable for any indirect, incidental, special, consequential or punitive
         damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses. <br />{' '}
         <div  id='pp'></div>
@@ -59,7 +59,7 @@ function TermsOfService() {
       </Text>
 
       <Text>
-        CoverLetterGPT ("we," "us," "our") is committed to protecting your privacy. This Privacy Policy explains how we
+        AIJobBot ("we," "us," "our") is committed to protecting your privacy. This Privacy Policy explains how we
         collect, use, disclose, and safeguard your information when you visit our website and use our services. If you
         do not agree with the terms of this privacy policy, please do not access the site or use the services.
         <br /> **1. Information Collection** a. Personal Information: We collect personal information that you

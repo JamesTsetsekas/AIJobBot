@@ -7,7 +7,7 @@ export function Footer() {
     <VStack width='full' py={5} textAlign='center' gap={4}>
       <Divider />
       <VStack gap={3}>
-        <Link href='https://github.com/vincanger/coverlettergpt' color='purple.300' target='_blank'>
+        <Link href='https://github.com/vincanger/aijobbot' color='purple.300' target='_blank'>
           <HStack justify='center'>
             <FaGithub />
             <Text fontSize='sm' color='purple.300'>

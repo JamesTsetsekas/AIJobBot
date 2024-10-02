@@ -87,7 +87,7 @@ export default function ProfilePage({ user }: { user: User }) {
               <Text textAlign='initial'>Thanks so much for your support!</Text>
 
               <Text textAlign='initial'>
-                You have unlimited access to CoverLetterGPT using {user.gptModel.includes('gpt-4') ? 'GPT-4o' : 'GPT-4o-mini'}{' '}
+                You have unlimited access to AIJobBot using {user.gptModel.includes('gpt-4') ? 'GPT-4o' : 'GPT-4o-mini'}{' '}
                 until:
               </Text>
 
@@ -211,7 +211,7 @@ export default function ProfilePage({ user }: { user: User }) {
                     <VStack gap={3} alignItems='center'>
                       <Heading size='xl'>⚡️</Heading>
                       <Text textAlign='start' fontSize='md'>
-                        You have affordable, pay-per-use access to CoverLetterGPT with GPT-4o via the Lightning Network
+                        You have affordable, pay-per-use access to AIJobBot with GPT-4o via the Lightning Network
                       </Text>
                       <Text textAlign='start' fontSize='sm'>
                         Note: if you prefer a montly subscription, please logout and sign in with Google.

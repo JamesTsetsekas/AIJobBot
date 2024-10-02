@@ -1,19 +1,19 @@
-app CoverLetterGPT {
+app AIJobBot {
   wasp: {
     version: "^0.14.0"
   },
-  title: "CoverLetterGPT",
+  title: "AIJobBot",
   head: [
         "<meta property=\"og:type\" content=\"website\" />",
-        "<meta property=\"og:url\" content=\"https://CoverLetterGPT.xyz\" />",
-        "<meta property=\"og:title\" content=\"CoverLetterGPT\" />",
+        "<meta property=\"og:url\" content=\"https://AIJobBot.xyz\" />",
+        "<meta property=\"og:title\" content=\"AIJobBot\" />",
         "<meta property=\"og:description\" content=\"Create Unique Cover Letters Based on Your Skills using GPT. Supercharge Your Job Search with Cover Letter GPT.\" />",
-        "<meta property=\"og:image\" content=\"https://CoverLetterGPT.xyz/homepage.png\" />",
-        "<meta name=\"twitter:image\" content=\"https://CoverLetterGPT.xyz/homepage.png\" />",
+        "<meta property=\"og:image\" content=\"https://AIJobBot.xyz/homepage.png\" />",
+        "<meta name=\"twitter:image\" content=\"https://AIJobBot.xyz/homepage.png\" />",
         "<meta name=\"twitter:image:width\" content=\"800\" />",
         "<meta name=\"twitter:image:height\" content=\"400\" />",
         "<meta name=\"twitter:card\" content=\"summary_large_image\" />",
-        "<!-- Google tag (gtag.js) --><script async src=\"https://www.googletagmanager.com/gtag/js?id=G-SXYZR2FHVJ\"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-SXYZR2FHVJ');</script>"
+        //"<!-- Google tag (gtag.js) --><script async src=\"https://www.googletagmanager.com/gtag/js?id=G-SXYZR2FHVJ\"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-SXYZR2FHVJ');</script>"
   ],
   // 🔐 Auth out of the box! https://wasp-lang.dev/docs/language/features#authentication--authorization
   auth: {
@@ -33,7 +33,7 @@ app CoverLetterGPT {
   emailSender: {
     provider: SendGrid,
     defaultFrom: {
-      name: "CoverLetterGPT",
+      name: "AIJobBot",
       email: "vince@wasp-lang.dev",
     },
   },
@@ -80,7 +80,7 @@ page CheckoutPage {
 route TosRoute { path: "/tos", to: TosPage }
 page TosPage {
   component: import Tos from "@src/client/TosPage"
-} 
+}
 
 /* ⛑ These are the Wasp Operations, which allow the client and server to interact:
  * https://wasp-lang.dev/docs/language/features#queries-and-actions-aka-operations
@@ -200,7 +200,7 @@ query getCoverLetterCount {
 
 /* 📡 These are custom Wasp API Endpoints. Use them for callbacks, webhooks, etc.
  * https://wasp-lang.dev/docs/language/features#apis
- */ 
+ */
 
 api stripeWebhook {
   fn: import { stripeWebhook } from "@src/server/webhooks.js",
@@ -224,7 +224,7 @@ job checkUserSubscription {
     fn: import { updateUserSubscription } from "@src/server/workers/updateUserSubscription.js"
   },
   schedule: {
-    cron: "0 23 * * *" 
+    cron: "0 23 * * *"
   },
   entities: [User]
 }
@@ -235,7 +235,7 @@ job checkExpirationDate {
     fn: import { sendExpirationNotice } from "@src/server/workers/sendExpirationNotice.js"
   },
   schedule: {
-    cron: "0 17 * * *" 
+    cron: "0 17 * * *"
   },
   entities: [User]
 }

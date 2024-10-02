@@ -3,22 +3,22 @@ import type { Context } from '../types';
 
 const emailToSend: Email = {
   to: '',
-  subject: 'Your CoverLetterGPT.xyz subscription is about to expire',
-  text: "Hey There! This is just a reminder that your subscription for https://CoverLetterGPT.xyz is expiring in just two weeks. If you have any questions or concerns regarding your subscription, please don't hesitate to reach out. Thanks again for your support and good luck with your job search! -Vince from CoverLetterGPT",
+  subject: 'Your AIJobBot.xyz subscription is about to expire',
+  text: "Hey There! This is just a reminder that your subscription for https://AIJobBot.xyz is expiring in just two weeks. If you have any questions or concerns regarding your subscription, please don't hesitate to reach out. Thanks again for your support and good luck with your job search! -Vince from AIJobBot",
   html: `<html lang="en">
           <head>
             <meta charset="UTF-8">
-            <title>CoverLetterGPT.xyz Subscription Expiration Notice</title>
+            <title>AIJobBot.xyz Subscription Expiration Notice</title>
           </head>
           <body>
             <p>Hey There!</p>
-            
-            <p>This is just a reminder that your subscription for https://CoverLetterGPT.xyz is expiring in just two weeks.</p>
-            
+
+            <p>This is just a reminder that your subscription for https://AIJobBot.xyz is expiring in just two weeks.</p>
+
             <p>If you have any questions or concerns regarding your subscription, please don't hesitate to reach out.</p>
-            
+
             <p>Thanks again for your support and good luck with your job search!</p>
-            <p>-Vince from CoverLetterGPT</p>
+            <p>-Vince from AIJobBot</p>
           </body>
         </html>`,
 };
