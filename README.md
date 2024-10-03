@@ -39,3 +39,40 @@ For more info on the prompts and configuration I used for the [OpenAI](https://o
 I also implemented a cron job to send an email to the user to notify them 2 weeks before their subscription ends. I used [SendGrid](https://sendgrid.com/) for the email service.
 
 If you have any other questions, feel free to reach out to me on [twitter](https://twitter.com/hot_town)
+
+## Deploying it
+wasp build
+
+Backend (RAILWAY):
+cd .wasp/build
+railway link
+railway up
+
+ENV Variables:
+DATABASE_URL
+JWT_SECRET
+WASP_WEB_CLIENT_URL
+WASP_SERVER_URL
+REACT_APP_API_URL
+GOOGLE_CLIENT_ID
+GOOGLE_CLIENT_SECRET
+OPENAI_API_KEY
+COINMARKETCAP_API_KEY
+STRIPE_KEY
+PRODUCT_PRICE_ID=
+GPT4_PRICE_ID=
+
+Frontend (NETLIFY):
+cd web-app
+npm install && REACT_APP_API_URL=https://aijobbot.up.railway.app/ npm run build
+netlify deploy
+netlify deploy --prod
+
+ENV Variables:
+DATABASE_URL
+REACT_APP_API_URL
+WASP_WEB_CLIENT_URL
+
+
+## TODO
+Add Sendgrid API key to env.server
